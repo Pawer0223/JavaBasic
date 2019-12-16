@@ -30,7 +30,7 @@ public class Maps {
 		
 		likedHashM.put("라", 5);
 		likedHashM.put("가", 2);
-		likedHashM.put("나", 1);
+		likedHashM.put("나", 1); 
 		likedHashM.put("카", 2);
 		likedHashM.put("차", 2);		
 		
