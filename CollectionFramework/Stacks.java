@@ -1,5 +1,7 @@
 package CollectionFramework;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 public class Stacks {
@@ -26,6 +28,8 @@ public class Stacks {
 		for ( int i = 0 ; i < st.size(); i ++ ) {
 			System.out.println(st.get(i));
 		}
+		
+		List l = new ArrayList<Integer>();
 		
 	}//main
 }//class

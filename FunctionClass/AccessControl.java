@@ -20,7 +20,6 @@ public class AccessControl {
 		
 		classA a = new classA();
 		
-		System.out.println(a.public_word);
 		
 		
 	}//main

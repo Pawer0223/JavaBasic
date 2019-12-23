@@ -6,6 +6,8 @@ public class classA extends classC {
 	
 //	protected String word = "classA";
 	public String word = "classA";
+	
+	private String pv_word = "private_word";
 
 	public void callC() {
 		

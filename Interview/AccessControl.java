@@ -13,5 +13,11 @@ public class AccessControl {
 		System.out.println(c.public_word);
 		
 		
+		classB b = new classB();
+		
+		System.out.println(b.protected_word);
+		
+		
 	}//main
+	
 }//class
