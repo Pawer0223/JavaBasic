@@ -1,6 +1,6 @@
 package FunctionClass;
 
-import Interview.classC;
+import FunctionClass.classC;
 
 public class classA extends classC {
 	

@@ -15,8 +15,6 @@ public class AccessControl {
 		
 		classB b = new classB();
 		
-		System.out.println(b.protected_word);
-		
 		
 	}//main
 	
