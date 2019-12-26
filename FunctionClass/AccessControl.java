@@ -15,7 +15,6 @@ public class AccessControl {
 		
 		//System.out.println(c.default_word);
 		
-		
 		// protected는 동일패키지에서는 접근가능 함.
 		
 		// 다른 패키지에서는 접근 불가능 
