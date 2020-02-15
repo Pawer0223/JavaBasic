@@ -20,7 +20,7 @@ public class classA extends classC {
 		System.out.println(protected_word);
 
 		
-		//System.out.println(default_word);
+		System.out.println(default_word);
 		//System.out.println(private_word);
 		
 	}

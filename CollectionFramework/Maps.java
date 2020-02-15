@@ -2,6 +2,7 @@ package CollectionFramework;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.LinkedList;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -26,16 +27,17 @@ public class Maps {
 
 		// 입력 순서대로 출력된다.
 		// HashMap을 상속받으며, LinkedList로 저장이 된다.
-		Map<String,Integer> likedHashM = new LinkedHashMap<String,Integer>();
+		Map<String,Integer> linkedHashM = new LinkedHashMap<String,Integer>();
 		
-		likedHashM.put("라", 5);
-		likedHashM.put("가", 2);
-		likedHashM.put("나", 1); 
-		likedHashM.put("카", 2);
-		likedHashM.put("차", 2);		
+		linkedHashM.put("라", 5);
+		linkedHashM.put("가", 2);
+		linkedHashM.put("나", 1); 
+		linkedHashM.put("카", 2);
+		linkedHashM.put("차", 2);		
 		
-		System.out.println(" likedHashM의 key값 : " + likedHashM.keySet().toString());
-		System.out.println(" likedHashM의 value값 : " + likedHashM.values().toString());
+		
+		System.out.println(" likedHashM의 key값 : " + linkedHashM.keySet().toString());
+		System.out.println(" likedHashM의 value값 : " + linkedHashM.values().toString());
 		
 		// 키값이 기본적으로 오름차순 정렬되어 출력된다.
 		// 키값에대한 Comparator구현으로 정렬방법을 지정할 수 있다.
@@ -49,7 +51,7 @@ public class Maps {
 		
 		System.out.println(" treeM의 key값 : " + treeM.keySet().toString());
 		System.out.println(" treeM의 value값 : " + treeM.values().toString());
-			
+		
 		
 		
 	}//main
